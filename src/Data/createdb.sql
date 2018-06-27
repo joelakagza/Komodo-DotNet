@@ -1,0 +1,20 @@
+﻿create table [dbo].[Quotes] (
+    [Id] [int] not null identity,
+    [BatchId] [nvarchar](max) null,
+    [InsurerName] [nvarchar](250) not null,
+    [AnnualPrice] [decimal](18, 2) not null,
+    [VoluntaryExcessBuildings] [decimal](18, 2) not null,
+    [VoluntaryExcessContents] [decimal](18, 2) not null,
+    [CompulsoryExcessBuildings] [decimal](18, 2) not null,
+    [CompulsoryExcessContents] [decimal](18, 2) not null,
+    [TotalExcessBuildings] [decimal](18, 2) not null,
+    [BuildingsCover] [decimal](18, 2) not null,
+    [ContentsCover] [decimal](18, 2) not null,
+    [LegalExpenses] [decimal](18, 2) not null,
+    [HomeEmergency] [decimal](18, 2) not null,
+    [AboutInsurer] [nvarchar](400) not null,
+    [UnderWriter] [nvarchar](250) not null,
+    [TotalExcessContents] [decimal](18, 2) not null,
+    [Date] [datetime] not null,
+    primary key ([Id])
+);

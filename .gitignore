@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/Komodo/bin/Debug
+/src/packages
+/src/.vs/Komodo/v15
+/src/.vs/Komodo/DesignTimeBuild
